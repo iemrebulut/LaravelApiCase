@@ -1,0 +1,26 @@
+[
+    {
+        "category_id": 1,
+        "title": "Roman"
+    },
+    {
+        "category_id": 2,
+        "title": "Kişisel Gelişim"
+    },
+    {
+        "category_id": 3,
+        "title": "Bilim"
+    },
+    {
+        "category_id": 4,
+        "title": "Din ve Tasavvuf"
+    },
+    {
+        "category_id": 5,
+        "title": "Öykü"
+    },
+    {
+        "category_id": 6,
+        "title": "Felsefe"
+    }
+]

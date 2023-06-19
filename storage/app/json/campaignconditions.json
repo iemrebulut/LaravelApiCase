@@ -1,0 +1,17 @@
+[
+    {
+        "campaign_id": 1,
+        "key": "category_id",
+        "value": 1
+    },
+    {
+        "campaign_id": 1,
+        "key": "author_id",
+        "value": 3
+    },
+    {
+        "campaign_id": 2,
+        "key": "is_domestic",
+        "value": 1
+    }
+]

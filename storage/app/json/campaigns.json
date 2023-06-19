@@ -1,0 +1,35 @@
+[
+    {
+        "is_price_limit_campaign": false,
+        "is_x_al_y_ode_campaign": true,
+        "price_min_limit": 0,
+        "percent": 0,
+        "x_al_y_ode_limit": 2,
+        "x_al_y_ode_free": 1,
+        "detail": "Sabahattin Ali'nin Roman kitaplarında 2 al 1 öde"
+    },
+    {
+        "author_id": 0,
+        "category_id": 0,
+        "is_domestic": true,
+        "is_price_limit_campaign": true,
+        "is_x_al_y_ode_campaign": false,
+        "price_min_limit": 0,
+        "percent": 0.05,
+        "x_al_y_ode_limit": 0,
+        "x_al_y_ode_free": 0,
+        "detail": "Yerli yazarlarda %5 indirim"
+    },
+    {
+        "author_id": 0,
+        "category_id": 0,
+        "is_domestic": false,
+        "is_price_limit_campaign": true,
+        "is_x_al_y_ode_campaign": false,
+        "price_min_limit": 200,
+        "percent": 0.05,
+        "x_al_y_ode_limit": 0,
+        "x_al_y_ode_free": 0,
+        "detail": "200 TL ve üzeri %5 indirim"
+    }
+]

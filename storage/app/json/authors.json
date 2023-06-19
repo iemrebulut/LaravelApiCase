@@ -1,0 +1,58 @@
+[
+    {
+        "author_id": 1,
+        "name": "Yaşar Kemal"
+    },
+    {
+        "author_id": 2,
+        "name": "Oğuz Atay"
+    },
+    {
+        "author_id": 3,
+        "name": "Sabahattin Ali"
+    },
+    {
+        "author_id": 4,
+        "name": "John Steinback"
+    },
+    {
+        "author_id": 5,
+        "name": "Jose Mauro De Vasconcelos"
+    },
+    {
+        "author_id": 6,
+        "name": "Hakan Mengüç"
+    },
+    {
+        "author_id": 7,
+        "name": "Stephen Hawking"
+    },
+    {
+        "author_id": 8,
+        "name": "Uğur Koşar"
+    },
+    {
+        "author_id": 9,
+        "name": "Mehmet Yıldız"
+    },
+    {
+        "author_id": 10,
+        "name": "Mert Arık"
+    },
+    {
+        "author_id": 11,
+        "name": "Marcus Aurelius"
+    },
+    {
+        "author_id": 12,
+        "name": "Michel de Montaigne"
+    },
+    {
+        "author_id": 13,
+        "name": "George Orwell"
+    },
+    {
+        "author_id": 14,
+        "name": "Peyami Safa"
+    }
+]
