@@ -9,10 +9,9 @@ use Illuminate\Support\Facades\Cache;
 
 class CampaignController extends BaseController
 {
-    public function __construct()
-    {
+    public function __construct() {
         Cache::forget('campaigns');
-        Cache::remember('campaigns', now()->addMinute(3), function () {
+        Cache::remember('campaigns', now()->addMinutes(3) , function() {
             $campaigns = Campaign::with('campaignConditions')->withCount('campaignConditions')->get();
             if($campaigns->isEmpty())
                 return null;
@@ -28,7 +27,7 @@ class CampaignController extends BaseController
             foreach ($campaigns as $campaign) {
                 $productIds = true; // Kampanya şartı yoksa
 
-                if($campaigns->campaign_conditions_count > 0) {
+                if($campaign->campaign_conditions_count > 0) {
                     $productIds = array();
                     foreach ($data as $row) {
                         $productCount = Product::query();

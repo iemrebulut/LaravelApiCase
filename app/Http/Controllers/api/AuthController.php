@@ -25,15 +25,15 @@ class AuthController extends BaseController
             if(Auth::guard('web')->attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
 
                 $user = Auth::user();
-                $user['token'] = $user->createToken('MyApp')->platinTextToken;
+                $user['token'] = $user->createToken('MyApp')->plainTextToken;
 
-                return $this->success(message: 'User successfully login', data: []);
+                return $this->success(message: 'User successfully login', data: $user);
 
             } else {
                 return $this->error(message: 'Email or password incorrect', data: [], statusCode: 401);
             }
         } catch (\Exception $e){
-            return $this->error(message: $e->getMessage(), data: [], statusCode: $e->getCode());
+            return $this->error(message: $e->getMessage(), data: [], statusCode: 401);
         }
     }
 
@@ -50,7 +50,7 @@ class AuthController extends BaseController
                 return $this->error(message: 'Unauthorized', data: [], statusCode:401);
             }
         }catch (\Exception $e){
-            return $this->error(message: $e->getMessage(), data: [], statusCode: $e->getCode());
+            return $this->error(message: $e->getMessage(), data: [], statusCode: 401);
         }
     }
 }

@@ -13,7 +13,17 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
+            $table->string('sip_no');
+            $table->unsignedBigInteger('user_id');
+            $table->double('all_products_fee');
+            $table->double('discount_fee');
+            $table->double('cargo_fee');
+            $table->double('total_fee')->comment('shipping fee included');
+            $table->longText('products');
+            $table->longText('campaign')->nullable();
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
