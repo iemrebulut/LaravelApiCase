@@ -14,6 +14,7 @@ Backend repository: https://github.com/iemrebulut/LaravelApiCase.git
 - Clone repository
 - "composer install" komutunu çalıştırın
 - .env.example dosyasını yeniden adlandırın veya .env olarak kopyalayın
+- “php artisan key:generate” komutunu çalıştırın.
 - .env dosyasında DB_DATABASE=laravel_api_case olarak düzenleyin
 - MySQL serverını başlatın
 - laravel_api_case adında bir veritabanı oluşturun
