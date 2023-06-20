@@ -1,10 +1,8 @@
 ## <p align="center">Laravel Api Case</p>
 <p align="center">Emre BULUT</p>
 
-<p align="center">
-  <a href="https://skillicons.dev">
+<p align="center"> 
     <img src="https://skillicons.dev/icons?i=php,laravel,mysql" />
-  </a>
 </p>
 
 Backend repository: https://github.com/iemrebulut/LaravelApiCase.git
